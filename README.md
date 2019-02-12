@@ -1,5 +1,5 @@
 # Beagle
-![image](https://imgur.com/a/8OBFcM8)
+![](https://i.imgur.com/l2aB3vG.jpg)
 
 A super simple regexp wrapper to make things more digestible for the average
 usecase.
