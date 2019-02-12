@@ -21,6 +21,10 @@ func main() {
         "I heard that go regexps are hard! But maybe it is easy.",
     )
 
+    if result.Matched() {
+        fmt.Println("It worked!")
+    }
+
     fmt.Printf(
         "Actually %s %s %s\n",
         result.NamedGroup("thing")[0],

@@ -77,6 +77,9 @@ func (self Result) MatchedSubstrings() []string {
     return self.fullMatches
 }
 
+func (self Result) Matched() bool {
+    return self.hasMatches
+}
 
 func MustRegex(regex string) *Regex {
     newRegex := regexp.MustCompile(regex)
