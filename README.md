@@ -15,7 +15,7 @@ import (
 )
 
 func main() {
-    regex := MustRegex(`(?P<thing>\S+) (are|is) (?P<difficulty>\S+)`)
+    regex := beagle.MustRegex(`(?P<thing>\S+) (are|is) (?P<difficulty>\S+)`)
 
     result := regex.Match(
         "I heard that go regexps are hard! But maybe it is easy.",
