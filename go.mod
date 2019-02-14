@@ -1,4 +1,4 @@
-module github.com/DaiHasso/beagle
+module github.com/daihasso/beagle
 
 require (
 	github.com/onsi/gomega v1.4.3
